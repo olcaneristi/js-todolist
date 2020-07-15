@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+}
+
+header {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form input,
+form button {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+}
+
+button:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(189, 77, 241);
+  cursor: pointer;
+  color: white;
+}
+.todo-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.todo-list{
+  list-style: none;
+  min-width: 20%;
+}
+
+.todo-input{
+  width: 300px;
+}
+
+.todo-item{
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+
+}
+
+.todo {
+  height: 35px;
+  margin: 10px;
+  background: white;
+  color: black;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.delete-btn{
+  background-color: white;
+  border:none;
+  cursor: pointer;
+  padding: 8.2px;
+  font-size: 1rem;
+}
+
+.delete-btn:hover{
+  background-color: rgb(245, 49, 49);
+  color: white;
+}
+
+.fall{
+  transform: translateY(120px) rotateZ(20deg);
+  opacity: 0;
+}
